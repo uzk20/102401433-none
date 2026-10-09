@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>单元测试 - 校园失物招领</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .test-item {
+      padding: 12px;
+      margin-bottom: 8px;
+      border-radius: 6px;
+      font-size: 14px;
+      background: #fff;
+    }
+    .test-pass { border-left: 4px solid #22a06b; }
+    .test-fail { border-left: 4px solid #e74c3c; color: #e74c3c; }
+    .test-summary {
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <h1>单元测试</h1>
+    <p class="subtitle">校园失物招领 - 数据模块测试</p>
+  </header>
+
+  <section id="result" class="list"></section>
+
+  <script src="js/storage.js"></script>
+  <script src="js/test.js"></script>
+</body>
+</html>
